@@ -1,0 +1,15 @@
+{
+  "title": "The Candlestick Trading Bible",
+  "source_url": "https://dl.kohanfx.com/pdf/the-candlestick-trading-bible-%28KohanFx.com%29.pdf",
+  "verified_date": "2026-10-09",
+  "sha256": "bbd52e4b2537db2d499838e7b5af3b32809541ceef4114971b83f2afd5f382e3",
+  "bytes": 2971546,
+  "pages": 168,
+  "page_count_method": "Poppler pdfinfo",
+  "pdf_metadata_author": "Bella Ealie",
+  "authorship_note": "PDF metadata is not verified authorship. The modern author and rights holder remain unverified.",
+  "parser_warning": "Syntax Error: Can't get Fields array; pdfinfo still successfully reported 168 pages.",
+  "training_rights": "unverified",
+  "redistribution_rights": "unverified",
+  "uploaded_to_repository": false
+}

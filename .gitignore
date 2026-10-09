@@ -1,0 +1,20 @@
+# Local source material, extracted text, datasets, and model artifacts
+/data/
+/work/
+/outputs/
+/runs/
+/checkpoints/
+/models/
+*.pdf
+*.jsonl
+*.parquet
+*.onnx
+*.safetensors
+*.pt
+*.pth
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.DS_Store
