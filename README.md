@@ -4,7 +4,7 @@ Independent candlestick-only strategy research and preparation for training an A
 
 ## Project status
 
-This project is at the documentation and planning stage. AURE is the intended model family; the exact checkpoint and training configuration remain pending. No model has been trained here, and no strategy implementation, backtest, or deployment has been completed. No trading-performance claims are made.
+An initial local AURE training run completed on October 9, 2026. It produced a separate experimental LoRA adapter trained on extracted book text, with the original base checkpoint preserved. Held-out text-prediction loss improved; reliable question-answering and trading performance are not established. No strategy implementation, backtest, or deployment has been completed. See the [training report](docs/training-run-2026-10-09.md).
 
 ## Scope
 
@@ -21,6 +21,6 @@ See [training readiness](docs/training-discovery.md) for the remaining decisions
 
 ## Collaborating
 
-Start with [CONTRIBUTING.md](CONTRIBUTING.md). You can read this public repository and propose documentation changes or evaluation ideas through issues and pull requests. There is no runnable training application yet.
+Start with [CONTRIBUTING.md](CONTRIBUTING.md). You can read this public repository and propose documentation changes or evaluation ideas through issues and pull requests. The public repository contains documentation and measured results; local training data and model artifacts are excluded.
 
 Public visibility does not automatically connect this repository to ChatGPT or grant write access. Each collaborator must configure their own supported GitHub connection and permissions.

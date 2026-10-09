@@ -1,10 +1,10 @@
 # Training readiness
 
-AURE is the intended model family for an independent candlestick-only strategy. The exact checkpoint has not been selected, and no training has started.
+AURE is the selected model family for an independent candlestick-only strategy. An initial local checkpoint was selected and fingerprinted, and a text-only LoRA training run completed. See the [training report](training-run-2026-10-09.md). Exact private checkpoint locations remain outside the public repository.
 
-## Decisions before training
+## Requirements for further development
 
-1. Select the AURE checkpoint and verify its identity, license, compatibility, and local availability.
+1. Preserve the selected checkpoint identity and separate adapter; verify model lineage and applicable licensing before distributing derivatives.
 2. Establish the applicable rights to use any source material in training.
 3. Define the task: inputs, expected outputs, candlestick concepts, and the distinction between explaining book concepts and making market decisions.
 4. Prepare a reviewed dataset with provenance and a separate held-out evaluation set. Do not publish book text or private data here.
